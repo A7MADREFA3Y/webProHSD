@@ -6,5 +6,69 @@ body{
 }
 
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+:root{
+  /* colors setup */
+  --white-color: #fff;
+  --dark-color: #252525;
+  --primary-color: #3b141c;
+  --secondary-color: #f3961c;
+  --light-pink-color: #faf4fa;
+  --medium-gray-color: #ccc;
+
+  /* Font Size */
+  --font-size-s: 0.9rem;
+  --font-size-n: 1rem;
+  --font-size-m: 1.12rem;
+  --font-size-l: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 2.3rem;
+
+  /* Font Weight */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-smibold: 600;
+  --font-weight-bold: 700;
+
+  /* Border radius */
+  --border-radius-s: 8px;
+  --border-radius-m: 30px;
+  --border-radius-circle: 50%;
+
+  /* Site max width */
+  --site-max-width: 1300px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background-color: none;
+}
+
+img{
+  width: 100%;
+}
+
+
+
+header{
+  background: var(--primary-color);
+}
+
+.navbar .nav-logo .logo-text{
+  color: var(--white-color);
+}
+
+.navbar .nav-menu .nav-link{
+  color: var(--white-color);
 }
