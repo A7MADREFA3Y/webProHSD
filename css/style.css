@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* for night working hours  */
+body{
+  background: rgb(124, 124, 124);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
