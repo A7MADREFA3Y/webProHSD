@@ -6,6 +6,9 @@
   <title>HSD Coffe Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  
 </head>
 <body>
   <header>
@@ -151,10 +154,10 @@
   <section class="testimonials-section">
     <h2 class="section-title">Testimonials</h2>
     <div class="section-content">
-      <div class="slider-container">
-        <div class="slider-container">
-          <ul class="testimonials-list">
-            <li class="testimonial">
+      <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <ul class="testimonials-list swiper-wrapper">
+            <li class="testimonial swiper-slide">
               <img src="img/user-1.jpg" alt="User" class="user-image">
               <h3 class="name">
                 Sarah Johnson
@@ -164,7 +167,7 @@
                 </i>
               </h3>
             </li>
-            <li class="testimonial">
+            <li class="testimonial swiper-slide">
               <img src="img/user-2.jpg" alt="User" class="user-image">
               <h3 class="name">
                 James Wilson
@@ -174,7 +177,7 @@
                 </i>
               </h3>
             </li>
-            <li class="testimonial">
+            <li class="testimonial swiper-slide">
               <img src="img/user-3.jpg" alt="User" class="user-image">
               <h3 class="name">
                 Michael Brown
@@ -183,7 +186,7 @@
                 </i>
               </h3>
             </li>
-            <li class="testimonial">
+            <li class="testimonial swiper-slide">
               <img src="img/user-4.jpg" alt="User" class="user-image">
               <h3 class="name">
                 Emily Harris
@@ -193,7 +196,7 @@
                 </i>
               </h3>
             </li>
-            <li class="testimonial">
+            <li class="testimonial swiper-slide">
               <img src="img/user-5.jpg" alt="User" class="user-image">
               <h3 class="name">
                 Anthony Thompson 
@@ -203,6 +206,9 @@
               </h3>
             </li>
           </ul>
+          <div class="swiper-paginaion"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
         </div>
       </div>
     </div>
@@ -210,8 +216,11 @@
 
 
 </main>
+  <!-- swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
-  <script src="./js/script.js">
+<!-- custom script -->
+<script src="./js/script.js">
 
   </script>
 </body>
