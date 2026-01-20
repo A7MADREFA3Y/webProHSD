@@ -204,9 +204,7 @@ header .navbar{
 .about-section{
   padding: 120px 0;
   background: var(--light-pink-color);
-  /* background: blue; */
-  width: 100%;
-}
+} 
 
 .about-section .section-content{
   display: flex;
@@ -301,7 +299,7 @@ header .navbar{
   background: var(--light-pink-color);
 }
 
-.testimonials-section .slider-wrapper {
+^.testimonials-section .slider-wrapper {
   overflow: hidden;
   margin: 0 60px 50px;
 }
