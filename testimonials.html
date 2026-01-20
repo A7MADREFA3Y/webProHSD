@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
   <!-- swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
-
+  
 </head>
 <body>
   <header>
@@ -18,6 +18,7 @@
       </a>
         <ul class="nav-menu">
           <button id="menu-close-button" class="fas fa-times">
+            
           </button>
           <li class="nav-item">
             <a href="/index.html" class="nav-link">Home</a>
@@ -43,32 +44,68 @@
       </nav>
   </header>
   <main>
-    <section class="hero-section" id="1">
-      <div class="section-content">
-        <div class="hero-details">
-          <h2 class="title">
-            Best Coffee
-          </h2>
-          <h3 class="subtitle">
-            Make your day great with our special Coffee!
-          </h3>
-          <p class="description">Welcome to our Coffee paradise,
-            where every bean tells a story and every cup sparks joy.
-          </p>
-          <div class="buttons">
-            <a href="/gallery.html" class="button order-now">
-              order-now
-            </a>
-            <a href="/contact.html" class="button content-us">
-              Content Us
-            </a>
-          </div>
-        </div>
-        <div class="hero-image-wrapper">
-          <img src="./img/coffee-hero-section.png" alt="Hero" class="hero-image">
+    <section class="testimonials-section" id="4">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="section-content">
+      <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <ul class="testimonials-list swiper-wrapper">
+            <li class="testimonial swiper-slide">
+              <img src="img/user-1.jpg" alt="User" class="user-image">
+              <h3 class="name">
+                Sarah Johnson
+                <i class="feedback">
+                  "Loved the French roast. Perfectly bakanced and rich.
+                  will order again!!"
+                </i>
+              </h3>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="img/user-2.jpg" alt="User" class="user-image">
+              <h3 class="name">
+                James Wilson
+                <i class="feedback">
+                  "Great espresso blend! smooth and bold flavor.
+                  fast Shipping too!"
+                </i>
+              </h3>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="img/user-3.jpg" alt="User" class="user-image">
+              <h3 class="name">
+                Michael Brown
+                <i class="feedback">
+                  "Fantastic mocha flavor. fresh and aromatic. Quick shipping!"
+                </i>
+              </h3>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="img/user-4.jpg" alt="User" class="user-image">
+              <h3 class="name">
+                Emily Harris
+                <i class="feedback">
+                  "Excellent quality! Fresh beans and Quick delivery.
+                  Highly recommend"
+                </i>
+              </h3>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="img/user-5.jpg" alt="User" class="user-image">
+              <h3 class="name">
+                Anthony Thompson 
+                <i class="feedback">
+                  "Best decaf I've tried! smooth and flavorful. arrived promptly"
+                </i>
+              </h3>
+            </li>
+          </ul>
+          <div class="swiper-paginaion"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   <footer class="footer-section">
     <div class="section-content">
       <p class="copyright-text">2024 HSD Coffe-SHOP</p>
@@ -94,7 +131,6 @@
     </div>
   </footer>
 </main>
-
   <!-- swiper script -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
