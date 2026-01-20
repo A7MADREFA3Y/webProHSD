@@ -204,7 +204,9 @@ header .navbar{
 .about-section{
   padding: 120px 0;
   background: var(--light-pink-color);
-} 
+  /* background: blue; */
+  width: 100%;
+}
 
 .about-section .section-content{
   display: flex;
@@ -294,12 +296,12 @@ header .navbar{
 }
 
 /* Testimonial Styling */
-.testimonials-section { 
+.testimonials-section {
   padding: 50px 0 100px;
   background: var(--light-pink-color);
 }
 
-.testimonials-section .slider-wrapper { 
+.testimonials-section .slider-wrapper {
   overflow: hidden;
   margin: 0 60px 50px;
 }
@@ -313,7 +315,7 @@ header .navbar{
   align-items: center;
 }
 
-.testimonials-section .testimonial .user-image { 
+.testimonials-section .testimonial .user-image {
   width: 180px;
   height: 180px;
   object-fit: cover;
@@ -364,7 +366,7 @@ header .navbar{
 .gallery-section .gallery-list .gallery-item {
   overflow: hidden;
   border-radius: var(--border-radius-s);
-  width: calc(100% / 3 - 32px);  
+  width: calc(100% / 3 - 32px);
 }
 
 .gallery-section .gallery-item .gallery-image {
@@ -463,19 +465,19 @@ header .navbar{
 
 .footer-section .social-link-list {
   display: flex;
-  gap: 25px;  
-} 
+  gap: 25px;
+}
 
 
 .footer-section .social-link-list .social-link {
   font-size: var(--font-size-l);
-} 
+}
 
 
 .footer-section .social-link-list .social-link:hover,
 .footer-section .policy-text .policy-link {
   color: var(--secondary-color);
-} 
+}
 
 .footer-section .policy-text .separator {
   margin: 0 5px;
@@ -515,7 +517,7 @@ header .navbar{
   .navbar :where(#menu-close-button, #menu-open-button) {
     display: block;
     font-size: var(--font-size-l);
-  
+
   }
 
   .navbar #menu-close-button{
@@ -527,7 +529,7 @@ header .navbar{
   .navbar #menu-open-button{
     color: var(--white-color);
   }
-  
+
 
   .navbar .nav-menu{
     display: block;
@@ -547,7 +549,7 @@ header .navbar{
   body.show-mobile-menu .navbar .nav-menu {
     left: 0;
   }
- 
+
   .navbar .nav-menu .nav-link{
     color: var(--dark-color);
     display: block;
@@ -631,7 +633,7 @@ header .navbar{
     width: 100%;
   }
 
-  .testimonials-section .slider-wrapper { 
+  .testimonials-section .slider-wrapper {
   margin: 0 0 30px;
   }
 
@@ -642,6 +644,6 @@ header .navbar{
 
   .footer-section .section-content {
    flex-direction: column;
-   gap: 20px; 
+   gap: 20px;
   }
 }
