@@ -202,7 +202,7 @@ header .navbar{
 
 /* about Section */
 .about-section{
-  padding: 120px 0;
+  padding: 190px 0;
   background: var(--light-pink-color);
 } 
 
@@ -299,7 +299,7 @@ header .navbar{
   background: var(--light-pink-color);
 }
 
-^.testimonials-section .slider-wrapper {
+.testimonials-section .slider-wrapper {
   overflow: hidden;
   margin: 0 60px 50px;
 }
@@ -380,7 +380,7 @@ header .navbar{
 
 /* Contact Us Style */
 .contact-section {
-  padding: 50px 0 100px;
+  padding: 10% 0 100px;
   background: var(--light-pink-color);
 }
 
