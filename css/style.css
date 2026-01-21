@@ -202,7 +202,8 @@ header .navbar{
 
 /* about Section */
 .about-section{
-  padding: 190px 0;
+  min-height: 95vh;
+  padding: 15% 0;
   background: var(--light-pink-color);
 } 
 
@@ -254,6 +255,7 @@ header .navbar{
 
 /* menu section */
 .menu-section {
+    min-height: 100vh;
   color: var(--white-color);
   background: var(--dark-color);
   padding: 50px 0 100px;
@@ -295,7 +297,8 @@ header .navbar{
 
 /* Testimonial Styling */
 .testimonials-section {
-  padding: 50px 0 100px;
+  min-height: 95vh;
+  padding: 150px 0 100px;
   background: var(--light-pink-color);
 }
 
@@ -350,6 +353,7 @@ header .navbar{
 
 /* Gallery Styling */
 .gallery-section {
+  min-height: 95vh;
   padding: 50px 0 100px;
 }
 
@@ -380,6 +384,7 @@ header .navbar{
 
 /* Contact Us Style */
 .contact-section {
+  min-height: 95vh;
   padding: 10% 0 100px;
   background: var(--light-pink-color);
 }
