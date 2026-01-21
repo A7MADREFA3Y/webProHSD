@@ -77,11 +77,11 @@
           <p>www.Coffee-HSD.de</p>
         </li>
       </ul>
-      <form action="#" class="contact-form" onsubmit="alertTheUserByInfos()">
-        <input type="text" placeholder="Your Name" class="form-input" required>
-        <input type="email" placeholder="Your E-mail" class="form-input" required>
-        <textarea placeholder="Your Message" class="form-input" required></textarea>
-        <button class="button submit-button">Submit</button>
+      <form id="contactForm" action="#" class="contact-form" onsubmit="alertTheUserByInfos(event)">
+        <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+        <input type="email" name="email" placeholder="Your E-mail" class="form-input" required>
+        <textarea name="message" placeholder="Your Message" class="form-input" required></textarea>
+        <button type="submit" class="button submit-button">Submit</button>
       </form>
     </div>
   </section>

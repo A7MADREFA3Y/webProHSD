@@ -38,3 +38,23 @@ const swiper = new Swiper('.slider-wrapper', {
         }
     }
 });
+
+function alertTheUserByInfos(event) {
+  event.preventDefault(); // Stop form submission
+  
+  const form = event.target;
+  const formData = new FormData(form);
+  const name = formData.get('name') || 'No name';
+  const email = formData.get('email') || 'No email';
+  const message = formData.get('message') || 'No message';
+  
+  // HTML5 validation already handled by 'required' attributes
+  if (form.checkValidity()) {
+    alert(`Vielen Dank, ${name}!\nE-Mail: ${email}\nNachricht: ${message}\nFormular gesendet!`);
+    form.reset(); // Optional: clear form
+  } else {
+    alert('Bitte fülle alle Felder korrekt aus!');
+    form.reportValidity(); // Show browser validation messages
+  }
+}
+
